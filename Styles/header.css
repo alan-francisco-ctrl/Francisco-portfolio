@@ -1,0 +1,72 @@
+header{
+    background-color: lightcyan;
+    display: flex;
+    height: 100px;
+}
+
+
+.navigation-bar{
+    display: flex;
+    flex: 1;
+    
+    padding-left: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: lightcyan;
+    border-style: solid;
+    border-color: lightcoral;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-icon{
+    width: 50px;
+    height: 30px;
+    background-color:  rgb(43, 42, 42);
+    border-style: solid;
+    border-color:  rgb(43, 42, 42);
+    border-radius: 25px;
+
+   justify-content: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+
+.menu-items{
+    width: 300px;
+    max-width: 500px;
+    height: 30px;
+    background-color:  rgb(43, 42, 42);
+    border-style: solid;
+    border-color:  rgb(43, 42, 42);
+    border-radius: 25px;
+
+
+    padding-left: 70px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.contact-me{
+    width: 100px;
+    height: 30px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+
+    background-color: rgb(43, 42, 42);
+    border-style: solid;
+    border-color: rgb(43, 42, 42);
+    border-radius: 30px;
+}
